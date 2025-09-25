@@ -46,3 +46,21 @@ Used to store data in key_value pairs.
 ```python
 person = {"name": "Alice" , "age" : 25}
 ```
+## 5.Boolean Type
+Represents **True** or **False** values.
+```python
+is_active = True
+is_admin = False
+```
+## 6.None Type
+Represents the absence of a value.
+```python
+result = None
+```
+## point
+- Python is dynamically typed, so don’t need to declare the type explicitly; it’s inferred automatically.
+- It can be checked the type of a variable using **type()**.
+```python
+x = 10
+print(type(x))  # <class 'int'>
+```
